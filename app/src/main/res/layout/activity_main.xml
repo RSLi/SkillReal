@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.wayriad.skillreal.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"/>
+
+    <LinearLayout
+        android:id="@+id/linear1_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_below="@id/toolbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        >
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/title_activity_skill_list"
+            android:id="@+id/btn_skill_list"
+            android:drawableTop="@drawable/ic_action_book"
+            android:drawablePadding="-60dp"
+            android:paddingTop="50dp"
+            android:enabled="false"
+            android:background="@color/highlighted_text_material_dark" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/title_activity_edit_list"
+            android:id="@+id/btn_edit_list"
+            android:drawableTop="@drawable/ic_mode_edit"
+            android:drawablePadding="-60dp"
+            android:paddingTop="50dp"
+            android:enabled="true"
+            android:background="@color/material_deep_teal_500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:weightSum="8"
+        android:orientation="horizontal"
+        android:layout_below="@id/linear1_activity_main"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/title_activity_timer"
+            android:id="@+id/btn_timer"
+            android:drawableTop="@drawable/ic_alarm"
+            android:drawablePadding="-60dp"
+            android:paddingTop="50dp"
+            android:enabled="false"
+            android:background="@android:color/holo_orange_light" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="@string/title_activity_settings"
+            android:id="@+id/btn_settings"
+            android:drawableTop="@drawable/ic_settings"
+            android:drawablePadding="-60dp"
+            android:paddingTop="50dp"
+            android:enabled="true"
+            android:background="@android:color/holo_green_light" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
