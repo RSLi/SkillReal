@@ -7,3 +7,4 @@ Users create skills that they want to practice, and upgrade the skill after they
 Skills can be grouped into catagories to help record the user's relative time commitment on different "attributes", and help identify what aspects of life can be particularly improved.
 
 The app is still in development and more features will appear later on.
+Collaborator: jzhang866
