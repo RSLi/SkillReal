@@ -8,3 +8,4 @@ Skills can be grouped into catagories to help record the user's relative time co
 
 The app is still in development and more features will appear later on.
 Collaborator: jzhang866
+Collaborator: CatherineZhuang
